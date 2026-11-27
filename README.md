@@ -26,14 +26,6 @@ Inspired by [SocialLite](https://sociallite.app/).
 
 ---
 
-## How it works
-
-Instalite loads `instagram.com` inside a `WKWebView` with a Mobile Safari user agent. On every page load, a small JavaScript snippet runs and removes the Reels nav item from Instagram's bottom bar. If the user somehow navigates to `/reels/`, they are immediately redirected back to the home feed.
-
-No VPN. No data leaves your device. Login is stored locally via cookies (same as Safari).
-
----
-
 ## Requirements
 
 - macOS with Xcode 15+
