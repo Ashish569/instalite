@@ -8,7 +8,6 @@ Inspired by [SocialLite](https://sociallite.app/).
 
 ## What it does
 
-- Opens Instagram as a mobile web app inside a clean WKWebView
 - **Hides the Reels tab** from Instagram's bottom navigation
 - **Redirects** any `/reels/` URL back to the home feed
 - Videos play **inline** (no unwanted fullscreen takeover)
