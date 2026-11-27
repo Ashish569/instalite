@@ -1,0 +1,25 @@
+name: instalite
+options:
+  bundleIdPrefix: com.ashish
+  deploymentTarget:
+    iOS: "16.0"
+  xcodeVersion: "15"
+
+targets:
+  instalite:
+    type: application
+    platform: iOS
+    sources:
+      - Sources
+    info:
+      path: Sources/Info.plist
+      properties:
+        CFBundleDisplayName: Instalite
+        UILaunchStoryboardName: ""
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        NSAppTransportSecurity:
+          NSAllowsArbitraryLoads: true
+        NSCameraUsageDescription: "Required to add photos and videos to your stories."
+        NSMicrophoneUsageDescription: "Required to record videos for your stories."
+        NSPhotoLibraryUsageDescription: "Required to select photos and videos from your library."
